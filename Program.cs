@@ -14,6 +14,7 @@ namespace Studio1ClassQuiz
             Q1();
 
             // Question 2
+            Q2();
 
             // Question 3
             Q3();
@@ -61,9 +62,29 @@ namespace Studio1ClassQuiz
 
         }
 
+        public static void Q2()
+        {
+            string answer 
+            Console.WriteLine("Question 2:");
+            Console.WriteLine("What animal can be seen on the Porsche logo");
+            answer = Console.ReadLine();
 
-        //Question 3
-        public static void Q3()
+            if (answer == "Horse" || "horse") ;
+            {
+                Console.WriteLine("That is the correct answer!");
+            }
+            else
+            {
+                Console.WriteLine("That is incorrect");
+                Console.WriteLine("The answer is Horse!");
+            }
+
+
+
+
+
+            //Question 3
+            public static void Q3()
         {
             string userInput;
             string userAns;

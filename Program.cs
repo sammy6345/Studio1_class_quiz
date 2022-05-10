@@ -58,7 +58,6 @@ namespace Studio1ClassQuiz
                     break;
             }
             Thread.Sleep(3000);
-            Q2();
 
         }
 
@@ -67,12 +66,14 @@ namespace Studio1ClassQuiz
         public static void Q3()
         {
             string userInput;
+            string userAns;
+
             Console.WriteLine();
             Console.WriteLine("What is the hottest planet in the solar system?");
             userInput = Console.ReadLine();
-            userInput.ToLower();
+            userAns = userInput.ToLower();
 
-            if (userInput == "venus" || userInput == "Venus")
+            if (userAns == "venus")
             {
                 Console.WriteLine();
                 Console.WriteLine("That is correct :^)");

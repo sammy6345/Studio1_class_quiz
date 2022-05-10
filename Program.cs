@@ -59,18 +59,17 @@ namespace Studio1ClassQuiz
                     break;
             }
             Thread.Sleep(3000);
-            Q2();
 
         }
 
         public static void Q2()
         {
-            string answer 
+            string answer;
             Console.WriteLine("Question 2:");
             Console.WriteLine("What animal can be seen on the Porsche logo");
             answer = Console.ReadLine();
 
-            if (answer == "Horse" || "horse") ;
+            if (answer == "Horse" || answer == "horse") 
             {
                 Console.WriteLine("That is the correct answer!");
             }
@@ -79,13 +78,13 @@ namespace Studio1ClassQuiz
                 Console.WriteLine("That is incorrect");
                 Console.WriteLine("The answer is Horse!");
             }
-
+        }
 
 
 
 
             //Question 3
-            public static void Q3()
+        public static void Q3()
         {
             string userInput;
             Console.WriteLine();

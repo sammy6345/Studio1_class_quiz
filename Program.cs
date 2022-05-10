@@ -8,12 +8,19 @@ namespace Studio1ClassQuiz
         static void Main()
         {
             // intro
-            Console.WriteLine("Hello World!");
+            intro();
             // Question 1
             Q1();
             // Question 2
 
             // Question 3
+        }
+
+        public static void intro()
+        {
+            Console.WriteLine("Welcome to our simple quiz.");
+            Console.WriteLine("There will be three questions for you to answer in a fixed order.");
+            Console.WriteLine("Good luck.");
         }
 
         public static void Q1()

@@ -59,7 +59,6 @@ namespace Studio1ClassQuiz
                     break;
             }
             Thread.Sleep(3000);
-            Q2();
 
         }
 
